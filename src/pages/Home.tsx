@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Award, Building2, HeartPulse } from "lucide-react";
 import Layout from "@/components/Layout";
+import HeroBackground from "@/components/HeroBackground";
 import profileImg from "@/assets/mick-profile.jpeg";
 
 const stats = [
@@ -34,8 +35,9 @@ const highlights = [
 const Home = () => (
   <Layout>
     {/* Hero */}
-    <section className="bg-navy text-primary-foreground section-padding">
-      <div className="section-container">
+    <section className="relative bg-navy text-primary-foreground section-padding">
+      <HeroBackground />
+      <div className="section-container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-up">
             <p className="text-gold font-semibold tracking-widest uppercase text-sm mb-4">Executive Portfolio</p>
@@ -56,7 +58,7 @@ const Home = () => (
               </Link>
               <Link
                 to="/case-studies"
-                className="inline-flex items-center gap-2 border border-primary-foreground/30 text-primary-foreground px-6 py-3 rounded hover:border-gold hover:text-gold transition-colors"
+                className="inline-flex items-center gap-2 border border-gold text-gold px-6 py-3 rounded hover:bg-gold hover:text-accent-foreground transition-colors animate-blink"
               >
                 View Case Studies
               </Link>
