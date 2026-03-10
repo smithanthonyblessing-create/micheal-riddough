@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import HeroBackground from "@/components/HeroBackground";
 import { Stethoscope, BookOpen, Building, GraduationCap } from "lucide-react";
 
 const milestones = [
@@ -11,8 +12,9 @@ const milestones = [
 
 const Healthcare = () => (
   <Layout>
-    <section className="bg-navy text-primary-foreground py-16 md:py-20">
-      <div className="section-container text-center">
+    <section className="relative bg-navy text-primary-foreground py-16 md:py-20">
+      <HeroBackground />
+      <div className="section-container text-center relative z-10">
         <p className="text-gold font-semibold tracking-widest uppercase text-sm mb-4">Healthcare Leadership</p>
         <h1 className="font-display text-4xl md:text-5xl font-bold">Shaping Policy.<br />Saving Lives.</h1>
         <p className="text-primary-foreground/70 mt-4 max-w-2xl mx-auto">
@@ -21,7 +23,6 @@ const Healthcare = () => (
       </div>
     </section>
 
-    {/* Timeline */}
     <section className="section-padding">
       <div className="section-container max-w-3xl">
         <h2 className="font-display text-3xl font-bold text-center mb-12">Career Timeline</h2>
@@ -43,7 +44,6 @@ const Healthcare = () => (
       </div>
     </section>
 
-    {/* Publications */}
     <section className="bg-cream section-padding">
       <div className="section-container max-w-3xl text-center">
         <h2 className="font-display text-3xl font-bold mb-6">Published Work</h2>

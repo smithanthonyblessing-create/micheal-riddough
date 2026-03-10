@@ -61,6 +61,10 @@ export default {
         },
         cream: "hsl(var(--cream))",
         "warm-gray": "hsl(var(--warm-gray))",
+        charcoal: {
+          DEFAULT: "hsl(var(--charcoal))",
+          light: "hsl(var(--charcoal-light))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

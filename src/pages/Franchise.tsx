@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import HeroBackground from "@/components/HeroBackground";
 import { Link } from "react-router-dom";
 import { TrendingUp, Users, Target, Megaphone, ArrowRight } from "lucide-react";
 
@@ -20,8 +21,9 @@ const services = [
 
 const Franchise = () => (
   <Layout>
-    <section className="bg-navy text-primary-foreground py-16 md:py-20">
-      <div className="section-container text-center">
+    <section className="relative bg-navy text-primary-foreground py-16 md:py-20">
+      <HeroBackground />
+      <div className="section-container text-center relative z-10">
         <p className="text-gold font-semibold tracking-widest uppercase text-sm mb-4">Franchise Development</p>
         <h1 className="font-display text-4xl md:text-5xl font-bold">Growing Brands.<br />Driving Results.</h1>
         <p className="text-primary-foreground/70 mt-4 max-w-2xl mx-auto">
@@ -30,7 +32,6 @@ const Franchise = () => (
       </div>
     </section>
 
-    {/* Services */}
     <section className="section-padding">
       <div className="section-container">
         <h2 className="font-display text-3xl font-bold text-center mb-12">Core Services</h2>
@@ -48,7 +49,6 @@ const Franchise = () => (
       </div>
     </section>
 
-    {/* Client Highlights */}
     <section className="bg-cream section-padding">
       <div className="section-container">
         <h2 className="font-display text-3xl font-bold text-center mb-12">Client Highlights</h2>
@@ -62,7 +62,7 @@ const Franchise = () => (
           ))}
         </div>
         <div className="text-center mt-10">
-          <Link to="/case-studies" className="inline-flex items-center gap-2 text-gold font-semibold hover:underline">
+          <Link to="/case-studies" className="inline-flex items-center gap-2 text-gold font-semibold hover:underline animate-blink">
             View Detailed Case Studies <ArrowRight size={18} />
           </Link>
         </div>

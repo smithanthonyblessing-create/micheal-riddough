@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import profileImg from "@/assets/mick-profile.jpeg";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -19,7 +20,10 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-primary border-b border-navy-light/30">
       <div className="section-container flex items-center justify-between h-16 md:h-20">
-        <Link to="/" className="font-display text-lg md:text-xl font-bold text-primary-foreground tracking-wide">
+        <Link to="/" className="flex items-center gap-3 font-display text-lg md:text-xl font-bold text-primary-foreground tracking-wide">
+          <div className="w-9 h-9 rounded-full overflow-hidden border-2 border-gold shrink-0">
+            <img src={profileImg} alt="MR" className="w-full h-full object-cover" />
+          </div>
           MICK <span className="text-gold">RIDDIOUGH</span>
         </Link>
 

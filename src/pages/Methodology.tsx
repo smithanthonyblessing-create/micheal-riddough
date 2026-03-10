@@ -1,33 +1,19 @@
 import Layout from "@/components/Layout";
+import HeroBackground from "@/components/HeroBackground";
 import { Search, BarChart3, Lightbulb, Rocket, CheckCircle } from "lucide-react";
 
 const steps = [
-  {
-    icon: Search,
-    title: "Discovery & Assessment",
-    desc: "Deep-dive into your brand, market position, FDD, competition, and growth objectives to understand the full picture.",
-  },
-  {
-    icon: Lightbulb,
-    title: "Strategy Development",
-    desc: "Craft a customized franchise sales process, identify target candidates, and build a marketing plan that attracts ideal franchisees.",
-  },
-  {
-    icon: BarChart3,
-    title: "Implementation & Execution",
-    desc: "Launch lead generation campaigns, nurture candidates through the sales funnel, and implement Discovery Day programs.",
-  },
-  {
-    icon: Rocket,
-    title: "Growth & Optimization",
-    desc: "Continuous monitoring, quarterly training, and data-driven adjustments to maximize franchise sales results.",
-  },
+  { icon: Search, title: "Discovery & Assessment", desc: "Deep-dive into your brand, market position, FDD, competition, and growth objectives to understand the full picture." },
+  { icon: Lightbulb, title: "Strategy Development", desc: "Craft a customized franchise sales process, identify target candidates, and build a marketing plan that attracts ideal franchisees." },
+  { icon: BarChart3, title: "Implementation & Execution", desc: "Launch lead generation campaigns, nurture candidates through the sales funnel, and implement Discovery Day programs." },
+  { icon: Rocket, title: "Growth & Optimization", desc: "Continuous monitoring, quarterly training, and data-driven adjustments to maximize franchise sales results." },
 ];
 
 const Methodology = () => (
   <Layout>
-    <section className="bg-navy text-primary-foreground py-16 md:py-20">
-      <div className="section-container text-center">
+    <section className="relative bg-navy text-primary-foreground py-16 md:py-20">
+      <HeroBackground />
+      <div className="section-container text-center relative z-10">
         <p className="text-gold font-semibold tracking-widest uppercase text-sm mb-4">Methodology</p>
         <h1 className="font-display text-4xl md:text-5xl font-bold">A Proven Approach</h1>
         <p className="text-primary-foreground/70 mt-4 max-w-2xl mx-auto">
