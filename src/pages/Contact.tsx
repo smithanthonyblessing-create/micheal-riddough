@@ -27,7 +27,7 @@ const Contact = () => (
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground uppercase tracking-wider">Email</p>
-                  <p className="font-medium group-hover:text-gold transition-colors">mick@theriddioughgroup.com</p>
+                  <p className="font-medium group-hover:text-gold transition-colors">mariddiough@gmail.com</p>
                 </div>
               </a>
               <a href="tel:3365759585" className="flex items-center gap-4 group">

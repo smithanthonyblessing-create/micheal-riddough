@@ -1,8 +1,9 @@
 import Layout from "@/components/Layout";
 import HeroBackground from "@/components/HeroBackground";
-import { Search, BarChart3, Lightbulb, Rocket, CheckCircle } from "lucide-react";
+import { Search, BarChart3, Lightbulb, Rocket, CheckCircle, UserCheck } from "lucide-react";
 
 const steps = [
+  { icon: UserCheck, title: "Candidate Evaluation & Rapport", desc: "Get to know franchise candidates before explaining the business. Evaluate the candidate's objectives and qualifications, assess the degree of alignment between the candidate and the franchise, and build rapport to establish a strong relationship." },
   { icon: Search, title: "Discovery & Assessment", desc: "Deep-dive into your brand, market position, FDD, competition, and growth objectives to understand the full picture." },
   { icon: Lightbulb, title: "Strategy Development", desc: "Craft a customized franchise sales process, identify target candidates, and build a marketing plan that attracts ideal franchisees." },
   { icon: BarChart3, title: "Implementation & Execution", desc: "Launch lead generation campaigns, nurture candidates through the sales funnel, and implement Discovery Day programs." },
