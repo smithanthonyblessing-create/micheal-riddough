@@ -21,13 +21,13 @@ const Contact = () => (
           <div className="space-y-6">
             <h2 className="font-display text-2xl font-bold">Get in Touch</h2>
             <div className="space-y-5">
-              <a href="mailto:mick@theriddioughgroup.com" className="flex items-center gap-4 group">
+              <a href="mailto:mariddiough@gmail.com" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shrink-0">
                   <Mail className="text-gold" size={20} />
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground uppercase tracking-wider">Email</p>
-                  <p className="font-medium group-hover:text-gold transition-colors">mick@theriddioughgroup.com</p>
+                  <p className="font-medium group-hover:text-gold transition-colors">mariddiough@gmail.com</p>
                 </div>
               </a>
               <a href="tel:3365759585" className="flex items-center gap-4 group">

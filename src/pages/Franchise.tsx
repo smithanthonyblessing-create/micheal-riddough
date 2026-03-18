@@ -5,7 +5,7 @@ import { TrendingUp, Users, Target, Megaphone, ArrowRight } from "lucide-react";
 
 const clients = [
   { name: "Beef Jerky Outlet", result: "1,567% growth, 220 franchises awarded, President's Cup", period: "2013–2017" },
-  { name: "Doctors Express", result: "20 units sold at $1.4M in one year", period: "2012–2013" },
+  { name: "Doctors Express", result: "20 units sold totalling $1.4M in one year", period: "2012–2013" },
   { name: "Decorating Den Interiors", result: "280% unit growth, 60 regional franchises, 4 international licenses", period: "1986–1999" },
   { name: "1-800-JUNKPRO", result: "7-step qualification process, Discovery Day program", period: "2018–Present" },
   { name: "Max Muscle Sports Nutrition", result: "Grew from 30 to 120+ units plus 12 regional franchises", period: "2007–2009" },

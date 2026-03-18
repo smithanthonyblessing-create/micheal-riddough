@@ -34,8 +34,8 @@ const Footer = () => (
         <div>
           <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-gold mb-4">Get in Touch</h4>
           <div className="flex flex-col gap-3 text-sm text-primary-foreground/70">
-            <a href="mailto:mick@theriddioughgroup.com" className="flex items-center gap-2 hover:text-gold transition-colors">
-              <Mail size={16} /> mick@theriddioughgroup.com
+            <a href="mailto:mariddiough@gmail.com" className="flex items-center gap-2 hover:text-gold transition-colors">
+              <Mail size={16} /> mariddiough@gmail.com
             </a>
             <a href="tel:3365759585" className="flex items-center gap-2 hover:text-gold transition-colors">
               <Phone size={16} /> (336) 575-9585

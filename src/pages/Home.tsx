@@ -7,7 +7,7 @@ import profileImg from "@/assets/mick-profile.jpeg";
 const stats = [
   { value: "30+", label: "Years Experience" },
   { value: "$10M+", label: "Franchise Fees Generated" },
-  { value: "220+", label: "Franchises Awarded" },
+  { value: "2000", label: "Franchises Sold" },
   { value: "2", label: "Vaccines Added to Medicare" },
 ];
 
