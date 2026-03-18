@@ -45,10 +45,10 @@ const Contact = () => (
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground uppercase tracking-wider">Location</p>
-                  <p className="font-medium">Indian Trail, SC 29707</p>
+                  <p className="font-medium">Charlotte, NC 28226</p>
                 </div>
               </div>
-              <a href="https://www.linkedin.com/in/mickriddiough" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+              <a href="https://www.linkedin.com/in/dr-michael-mick-riddiough/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shrink-0">
                   <Linkedin className="text-gold" size={20} />
                 </div>
@@ -57,7 +57,7 @@ const Contact = () => (
                   <p className="font-medium group-hover:text-gold transition-colors">Connect on LinkedIn</p>
                 </div>
               </a>
-              <a href="https://calendly.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+              <a href="https://calendly.com/mariddiough" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shrink-0">
                   <Calendar className="text-gold" size={20} />
                 </div>

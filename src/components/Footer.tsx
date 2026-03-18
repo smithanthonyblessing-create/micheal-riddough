@@ -40,7 +40,7 @@ const Footer = () => (
             <a href="tel:3365759585" className="flex items-center gap-2 hover:text-gold transition-colors">
               <Phone size={16} /> (336) 575-9585
             </a>
-            <a href="https://www.linkedin.com/in/mickriddiough" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gold transition-colors">
+            <a href="https://www.linkedin.com/in/dr-michael-mick-riddiough/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gold transition-colors">
               <Linkedin size={16} /> LinkedIn
             </a>
           </div>

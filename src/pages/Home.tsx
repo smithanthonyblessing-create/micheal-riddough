@@ -33,7 +33,7 @@ const highlights = [
 ];
 
 const timeline = [
-  { year: "1980s", title: "Clinical Pharmacy Professor", detail: "UCSF Medical Center & Visiting Professor at University of Sydney, Australia" },
+  { year: "1970s–1980s", title: "Clinical Pharmacy Professor", detail: "UCSF Medical Center & Visiting Professor at University of Sydney, Australia" },
   { year: "1990s", title: "Congressional Fellow", detail: "Office of Technology Assessment — added 2 vaccines to Medicare" },
   { year: "2000s", title: "Franchise Sales Leader", detail: "Generated $10M+ in franchise fees across 15 franchisor clients" },
   { year: "2010s+", title: "Executive Consultant", detail: "Advising franchise brands on growth strategy, sales systems, and market expansion" },
