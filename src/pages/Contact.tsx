@@ -45,7 +45,7 @@ const Contact = () => (
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground uppercase tracking-wider">Location</p>
-                  <p className="font-medium">Indian Trail, SC 29707</p>
+                  <p className="font-medium">Charlotte, NC 28226</p>
                 </div>
               </div>
               <a href="https://www.linkedin.com/in/mickriddiough" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
