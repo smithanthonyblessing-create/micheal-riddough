@@ -48,7 +48,7 @@ const Contact = () => (
                   <p className="font-medium">Charlotte, NC 28226</p>
                 </div>
               </div>
-              <a href="https://www.linkedin.com/in/mickriddiough" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+              <a href="https://www.linkedin.com/in/dr-michael-mick-riddiough/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shrink-0">
                   <Linkedin className="text-gold" size={20} />
                 </div>
