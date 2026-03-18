@@ -16,7 +16,7 @@ const services = [
   { icon: Target, title: "Customized Sales Process", desc: "Full-cycle franchise qualification and education programs tailored to each brand." },
   { icon: Megaphone, title: "Strategic Lead Generation", desc: "Targeted marketing campaigns and candidate nurturing programs that deliver qualified leads." },
   { icon: Users, title: "Sales Team Development", desc: "Building and training high-performing franchise sales teams and outsourced development." },
-  { icon: TrendingUp, title: "Growth Strategy", desc: "Data-driven growth plans that have generated $10M+ in initial franchise fees." },
+  { icon: TrendingUp, title: "Growth Strategy", desc: "Data-driven growth plans that have generated $10M+ in initial franchise fees for 15 franchisors in 3 years." },
 ];
 
 const Franchise = () => (
